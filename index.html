@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newtype SARL — AI-Powered Settlement Platform for Korea</title>
+  <meta name="description" content="Newtype SARL bridges international students, skilled workers, and global specialists to Korea through an integrated multi-agent AI settlement platform.">
+  <meta name="keywords" content="Newtype SARL, Korea settlement, AI concierge, Anthropic Claude, foreign talent in Korea, international students Korea, eSIM, housing">
+  
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://newtype.sarl/">
+  <meta property="og:title" content="Newtype SARL — AI-Powered Settlement Platform for Korea">
+  <meta property="og:description" content="Eliminating language, housing, telecom, and bureaucratic barriers for global talent arriving in South Korea.">
+  <meta property="og:image" content="/favicon.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo">
+        <div class="brand-icon">
+          <svg width="18" height="18" viewBox="0 0 64 64" fill="none">
+            <path d="M18 46V18L34 38V18H46V46L30 26V46H18Z" fill="url(#brandGrad)"/>
+            <defs>
+              <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#38bdf8" />
+                <stop offset="100%" stop-color="#c084fc" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span>NEWTYPE</span>
+        <span class="badge-sarl">SARL</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#mission" data-i18n="nav_mission">Mission</a></li>
+          <li><a href="#demographics" data-i18n="nav_problem">Demographics</a></li>
+          <li><a href="#platform" data-i18n="nav_solution">Platform</a></li>
+          <li><a href="#ai-core" data-i18n="nav_tech">AI Core</a></li>
+          <li><a href="#company" data-i18n="nav_company">About SARL</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Switcher Dropdown -->
+        <div class="lang-selector-wrapper">
+          <button id="lang-toggle-btn" class="lang-btn" aria-label="Select Language">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span id="current-lang-label">
+              <span class="lang-flag">🇺🇸</span> <span>English</span>
+            </span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+
+          <div id="lang-dropdown-menu" class="lang-dropdown">
+            <button class="lang-option selected" data-lang="en">
+              <span class="lang-flag">🇺🇸</span> English
+            </button>
+            <button class="lang-option" data-lang="ko">
+              <span class="lang-flag">🇰🇷</span> 한국어
+            </button>
+            <button class="lang-option" data-lang="vi">
+              <span class="lang-flag">🇻🇳</span> Tiếng Việt
+            </button>
+            <button class="lang-option" data-lang="uz">
+              <span class="lang-flag">🇺🇿</span> O'zbek tili
+            </button>
+            <button class="lang-option" data-lang="mn">
+              <span class="lang-flag">🇲🇳</span> Монгол хэл
+            </button>
+            <button class="lang-option" data-lang="ne">
+              <span class="lang-flag">🇳🇵</span> नेपाली
+            </button>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-sm" data-open-modal>
+          <span data-i18n="nav_contact">Contact Us</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="mission" class="hero-section">
+      <div class="container hero-content">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span data-i18n="badge_hero">Next-Gen AI Settlement Platform</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span data-i18n="hero_title_1">Bridging Global Talent to Korea</span><br>
+          <span class="gradient-text" data-i18n="hero_title_2">Through Agentic Intelligence</span>
+        </h1>
+
+        <p class="hero-desc" data-i18n="hero_desc">
+          South Korea is opening its doors to international students, skilled workers, and global specialists. Newtype SARL eliminates fragmented language and bureaucratic barriers, delivering an integrated, AI-guided settlement gateway for life in Korea.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#platform" class="btn btn-primary">
+            <span data-i18n="hero_cta_primary">Explore Platform</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <button class="btn btn-secondary" data-open-modal>
+            <span data-i18n="hero_cta_secondary">Company Dossier</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Interactive AI Concierge Preview Simulation -->
+        <div class="preview-container">
+          <div class="preview-card">
+            <div class="preview-header">
+              <span class="preview-tag-badge" data-i18n="preview_tag">AI AGENT SIMULATION</span>
+              <span class="preview-user-meta" data-i18n="preview_profile_user">User: Nguyen V. (Vietnam) • Visa: D-2 Student • Destination: Seoul</span>
+            </div>
+            <div class="preview-pipeline">
+              <div class="pipeline-step">
+                <div class="pipeline-step-header">
+                  <span class="step-status-icon">✓</span>
+                  <span class="pipeline-step-title" data-i18n="preview_status_1_title">Verified Housing Lease</span>
+                </div>
+                <p class="pipeline-step-desc" data-i18n="preview_status_1_desc">Standardized foreign-friendly lease reviewed & translated</p>
+              </div>
+
+              <div class="pipeline-step">
+                <div class="pipeline-step-header">
+                  <span class="step-status-icon">✓</span>
+                  <span class="pipeline-step-title" data-i18n="preview_status_2_title">Instant Telecom Activation</span>
+                </div>
+                <p class="pipeline-step-desc" data-i18n="preview_status_2_desc">Pre-arrival eSIM configured with local identity binding</p>
+              </div>
+
+              <div class="pipeline-step">
+                <div class="pipeline-step-header">
+                  <span class="step-status-icon">✓</span>
+                  <span class="pipeline-step-title" data-i18n="preview_status_3_title">Banking & ARC Preparation</span>
+                </div>
+                <p class="pipeline-step-desc" data-i18n="preview_status_3_desc">Documents prepared for branch visit upon arrival</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Problem & Demographic Reality Section -->
+    <section id="demographics" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge" data-i18n="problem_badge">The Demographic Imperative</div>
+          <h2 class="section-title" data-i18n="problem_title">A Growing Population Need Meets a Fragmented Reality</h2>
+          <p class="section-desc" data-i18n="problem_desc">
+            To counter demographic aging and structural labor deficits, Korea's international resident population is rapidly expanding. Yet, the initial 90-day settlement journey remains intensely complex.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="problem_card_1_title">High Language & Legal Barriers</h3>
+            <p class="card-desc" data-i18n="problem_card_1_desc">
+              Real estate contracts, telecom filings, and administrative registrations are dense with specialized Korean terms with limited multilingual accessibility.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="problem_card_2_title">Scattered, Disconnected Services</h3>
+            <p class="card-desc" data-i18n="problem_card_2_desc">
+              Foreigners must navigate dozens of disconnected brokers, telecom shops, and government websites without a single trusted coordination partner.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="card-title" data-i18n="problem_card_3_title">Lack of Personalized Guidance</h3>
+            <p class="card-desc" data-i18n="problem_card_3_desc">
+              Every newcomer's journey differs by nationality, visa category, budget, and region. Generic FAQ pages fail to solve real-world emergencies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform Roadmap Bento Grid -->
+    <section id="platform" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge" data-i18n="solution_badge">Our Multi-Stage Solution</div>
+          <h2 class="section-title" data-i18n="solution_title">A Unified Settlement Architecture</h2>
+          <p class="section-desc" data-i18n="solution_desc">
+            From the moment an acceptance letter or work contract is signed, Newtype coordinates every critical touchpoint through verified partners and intelligent automation.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          <div class="bento-card-large">
+            <span class="bento-tag" data-i18n="phase_3_tag">Phase 3: Autonomous Platform</span>
+            <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 14px;" data-i18n="phase_3_title">
+              Anthropic Claude-Powered AI Concierge
+            </h3>
+            <p style="font-size: 1.05rem; color: var(--text-secondary); max-width: 760px; line-height: 1.6;" data-i18n="phase_3_desc">
+              A personalized conversational agent that knows the user's visa, budget, and culture, proactively anticipating deadlines and orchestrating local services in native languages.
+            </p>
+          </div>
+
+          <div class="bento-card-half">
+            <span class="bento-tag" data-i18n="phase_1_tag">Phase 1: Day 0 Essentials</span>
+            <h3 style="font-size: 1.35rem; font-weight: 600; margin-bottom: 12px;" data-i18n="phase_1_title">
+              Housing & Telecom Onboarding
+            </h3>
+            <p style="color: var(--text-secondary); line-height: 1.6;" data-i18n="phase_1_desc">
+              Pre-verified furnished student/worker housing with transparent deposit terms, alongside instant eSIM and mobile authentication before landing.
+            </p>
+          </div>
+
+          <div class="bento-card-half">
+            <span class="bento-tag" data-i18n="phase_2_tag">Phase 2: Full Life Infrastructure</span>
+            <h3 style="font-size: 1.35rem; font-weight: 600; margin-bottom: 12px;" data-i18n="phase_2_title">
+              Banking, Insurance, Mobility & Education
+            </h3>
+            <p style="color: var(--text-secondary); line-height: 1.6;" data-i18n="phase_2_desc">
+              Alien Registration Card (ARC) paperwork automation, foreigner-friendly bank account opening assistance, mandatory national health insurance onboarding, and local transit support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Architecture Section (Anthropic Alignment) -->
+    <section id="ai-core" class="section">
+      <div class="container">
+        <div class="tech-container">
+          <div class="section-header" style="margin-bottom: 30px;">
+            <div class="badge" data-i18n="tech_badge">Core AI Architecture</div>
+            <h2 class="section-title" data-i18n="tech_title">Why Anthropic Claude Powers Our Engine</h2>
+            <p class="section-desc" data-i18n="tech_desc">
+              Handling legal documents, real estate contracts, and sensitive immigrant records demands the highest tier of nuanced reasoning and hallucination-free reliability.
+            </p>
+          </div>
+
+          <div class="tech-grid">
+            <div class="tech-feature">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <h4 data-i18n="tech_1_title">Native Multi-Lingual Reasoning</h4>
+              <p data-i18n="tech_1_desc">Claude excels at deep semantic comprehension across Vietnamese, Uzbek, Mongolian, Nepali, and Korean, preserving legal intent without mistranslation.</p>
+            </div>
+
+            <div class="tech-feature">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <h4 data-i18n="tech_2_title">Multi-Agent Bureaucratic Navigation</h4>
+              <p data-i18n="tech_2_desc">Orchestrating multi-step workflows across immigration protocols, residency laws, and commercial APIs through structured tool calling and rigorous guardrails.</p>
+            </div>
+
+            <div class="tech-feature">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c084fc" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <h4 data-i18n="tech_3_title">Enterprise Safety & Grounded RAG</h4>
+              <p data-i18n="tech_3_desc">Anthropic's constitutional safety and precision minimize catastrophic hallucinations in mission-critical administrative compliance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Company Governance & Contact Section -->
+    <section id="company" class="section">
+      <div class="container">
+        <div class="sarl-card">
+          <div>
+            <div class="badge" data-i18n="sarl_badge">Corporate Governance</div>
+            <h2 class="section-title" style="margin-top: 12px; margin-bottom: 14px;" data-i18n="sarl_title">Newtype SARL</h2>
+            <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 24px;" data-i18n="sarl_desc">
+              Dedicated to building next-generation infrastructure for cross-border talent integration. Headquartered with international standards and strict compliance.
+            </p>
+            <button class="btn btn-primary" data-open-modal>
+              <span data-i18n="nav_contact">Contact SARL Team</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <ul class="sarl-info-list">
+            <li class="sarl-info-item">
+              <span class="sarl-info-label" data-i18n="sarl_domain_label">Registered Domain</span>
+              <span class="sarl-info-value" style="color: #38bdf8;">newtype.sarl</span>
+            </li>
+            <li class="sarl-info-item">
+              <span class="sarl-info-label" data-i18n="sarl_entity_label">Corporate Form</span>
+              <span class="sarl-info-value" data-i18n="sarl_entity_val">Société à Responsabilité Limitée (SARL)</span>
+            </li>
+            <li class="sarl-info-item">
+              <span class="sarl-info-label" data-i18n="sarl_mission_label">Core Focus</span>
+              <span class="sarl-info-value" data-i18n="sarl_mission_val">AI-Driven Settlement & Global Mobility Infrastructure</span>
+            </li>
+            <li class="sarl-info-item">
+              <span class="sarl-info-label" data-i18n="sarl_contact_label">Official Inquiries</span>
+              <span class="sarl-info-value">contact@newtype.sarl</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div data-i18n="footer_rights">© 2026 Newtype SARL. All rights reserved.</div>
+      <div data-i18n="footer_domain">newtype.sarl • Global Settlement Intelligence</div>
+    </div>
+  </footer>
+
+  <!-- Contact Modal -->
+  <div id="contact-modal" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div style="margin-bottom: 24px;">
+        <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 6px;" data-i18n="modal_title">Connect with Newtype SARL</h3>
+        <p style="font-size: 0.9rem; color: var(--text-secondary);" data-i18n="modal_desc">For institutional partnerships, university collaborations, or Claude ecosystem evaluations, please submit your message below.</p>
+      </div>
+
+      <form id="inquiry-form">
+        <div class="form-group">
+          <label class="form-label" data-i18n="modal_name_label">Full Name / Organization</label>
+          <input type="text" class="form-input" required placeholder="e.g. Anthropic Review Team / Partner Institution">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" data-i18n="modal_email_label">Official Email Address</label>
+          <input type="email" class="form-input" required placeholder="name@organization.com">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" data-i18n="modal_type_label">Inquiry Type</label>
+          <select class="form-select">
+            <option data-i18n="modal_type_2">Claude Ecosystem Evaluation</option>
+            <option data-i18n="modal_type_1">Partnership / Integration</option>
+            <option data-i18n="modal_type_3">Investor & Enterprise Relations</option>
+            <option data-i18n="modal_type_4">General Inquiry</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" data-i18n="modal_msg_label">Message</label>
+          <textarea class="form-textarea" placeholder="Please describe your inquiry or evaluation notes..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 8px;">
+          <span data-i18n="modal_submit">Submit Inquiry</span>
+        </button>
+      </form>
+
+      <div id="form-success-message" style="display: none; padding: 24px 0; text-align: center;">
+        <div style="width: 48px; height: 48px; border-radius: 50%; background: rgba(16, 185, 129, 0.15); color: #10b981; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.5rem;">✓</div>
+        <p style="font-size: 1rem; color: var(--text-primary); margin-bottom: 20px;" data-i18n="modal_success">
+          Thank you for contacting Newtype SARL. We will get back to you promptly at your provided email.
+        </p>
+        <button class="btn btn-secondary btn-sm" onclick="document.getElementById('modal-close-btn').click();">
+          <span data-i18n="modal_close">Close</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
