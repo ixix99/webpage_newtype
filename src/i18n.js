@@ -12,8 +12,6 @@ export const translations = {
     hero_cta_primary: "Explore Services",
     hero_cta_secondary: "Get in Touch",
     preview_tag: "SETTLEMENT ASSISTANT PREVIEW",
-    preview_profile_title: "Active Settlement Journey",
-    preview_profile_user: "Student: Nguyen V. (Vietnam) • Visa: D-2 • Destination: Seoul",
     preview_status_1_title: "Verified Housing & Deposit Safety",
     preview_status_1_desc: "Safe, furnished accommodation verified with clear contract terms",
     preview_status_2_title: "Instant Mobile eSIM Connection",
@@ -66,7 +64,9 @@ export const translations = {
     modal_submit: "Send Message",
     modal_success: "Thank you for reaching out to Newtype. Our team will review your message and respond promptly.",
     modal_close: "Close",
-    footer_rights: "© 2026 Newtype SARL. All rights reserved.",
+    footer_rights: "© 2026 Newtype. All rights reserved.",
+    footer_address: "9, Anjae-ro 1beon-an-gil, Gwangmyeong-si, Gyeonggi-do, Republic of Korea",
+    footer_biz_num: "Business Reg. No.: 445-22-01640",
     footer_domain: "newtype.sarl • All-in-One Settlement Platform for Korea"
   },
   ko: {
@@ -82,8 +82,6 @@ export const translations = {
     hero_cta_primary: "서비스 둘러보기",
     hero_cta_secondary: "문의하기",
     preview_tag: "정착 도우미 서비스 시뮬레이션",
-    preview_profile_title: "사용자 맞춤형 정착 여정",
-    preview_profile_user: "유학생: 응우옌 V. (베트남) • 체류자격: D-2 유학 • 목적지: 서울",
     preview_status_1_title: "안전한 주거 계약 및 보증금 보호",
     preview_status_1_desc: "외국인 친화적인 검증 원룸/기숙사 및 모국어 계약 조항 검토 완료",
     preview_status_2_title: "입국 즉시 개통되는 안심 eSIM",
@@ -136,7 +134,9 @@ export const translations = {
     modal_submit: "문의 보내기",
     modal_success: "소중한 문의가 접수되었습니다. Newtype 담당자가 확인 후 신속하게 연락드리겠습니다.",
     modal_close: "닫기",
-    footer_rights: "© 2026 Newtype SARL. All rights reserved.",
+    footer_rights: "© 2026 Newtype. All rights reserved.",
+    footer_address: "경기도 광명시 안재로1번안길 9",
+    footer_biz_num: "사업자등록번호: 445-22-01640",
     footer_domain: "newtype.sarl • 외국인을 위한 올인원 한국 정착 플랫폼"
   },
   vi: {
@@ -152,8 +152,6 @@ export const translations = {
     hero_cta_primary: "Tìm hiểu Dịch vụ",
     hero_cta_secondary: "Liên hệ",
     preview_tag: "TRỢ LÝ ĐỊNH CƯ MÔ PHỎNG",
-    preview_profile_title: "Hành Trình Định Cư Cá Nhân",
-    preview_profile_user: "Du học sinh: Nguyễn V. • Visa: D-2 • Điểm đến: Seoul",
     preview_status_1_title: "Hợp đồng Thuê nhà Minh bạch & An toàn",
     preview_status_1_desc: "Kiểm tra kỹ lưỡng điều khoản tiền đặt cọc và giải thích chi tiết bằng tiếng Việt",
     preview_status_2_title: "eSIM Di động Kích hoạt Tức thì",
@@ -206,7 +204,9 @@ export const translations = {
     modal_submit: "Gửi Yêu cầu",
     modal_success: "Cảm ơn bạn đã liên hệ với Newtype. Chúng tôi sẽ phản hồi trong thời gian sớm nhất.",
     modal_close: "Đóng",
-    footer_rights: "© 2026 Newtype SARL. Đã đăng ký bản quyền.",
+    footer_rights: "© 2026 Newtype. Đã đăng ký bản quyền.",
+    footer_address: "9, Anjae-ro 1beon-an-gil, Gwangmyeong-si, Gyeonggi-do, Hàn Quốc",
+    footer_biz_num: "Mã số ĐKKD: 445-22-01640",
     footer_domain: "newtype.sarl • Nền tảng Định cư Toàn diện tại Hàn Quốc"
   },
   uz: {
@@ -222,8 +222,6 @@ export const translations = {
     hero_cta_primary: "Xizmatlarni Ko'rish",
     hero_cta_secondary: "Bog'lanish",
     preview_tag: "MOSLASHUV YORDAMCHISI",
-    preview_profile_title: "Foydalanuvchi Jarayoni",
-    preview_profile_user: "Talaba: Alisher K. • Viza: D-2 • Manzil: Seul",
     preview_status_1_title: "Xavfsiz Ijara va Depozit Himoyasi",
     preview_status_1_desc: "O'zbek tilida shartlari tushuntirilgan qulay turar joy",
     preview_status_2_title: "Tezkor Mobil eSIM Aloqasi",
@@ -276,7 +274,9 @@ export const translations = {
     modal_submit: "Yuborish",
     modal_success: "Xabaringiz qabul qilindi. Tez orada siz bilan bog'lanamiz.",
     modal_close: "Yopish",
-    footer_rights: "© 2026 Newtype SARL. Barcha huquqlar himoyalangan.",
+    footer_rights: "© 2026 Newtype. Barcha huquqlar himoyalangan.",
+    footer_address: "9, Anjae-ro 1beon-an-gil, Gvanmyon-si, Kyon'gi-do, Koreya Respublikasi",
+    footer_biz_num: "Tadbirkorlik ro'yxat raqami: 445-22-01640",
     footer_domain: "newtype.sarl • Koreyada Moslashuv Platformasi"
   },
   mn: {
@@ -292,8 +292,6 @@ export const translations = {
     hero_cta_primary: "Үйлчилгээ үзэх",
     hero_cta_secondary: "Холбогдох",
     preview_tag: "СУУРЬШЛЫН ТУСЛАХ СИМУЛЯЦИ",
-    preview_profile_title: "Хэрэглэгчийн Төлөвлөгөө",
-    preview_profile_user: "Оюутан: Бат-Эрдэнэ Б. • Виз: D-2 • Очих хот: Сөүл",
     preview_status_1_title: "Баталгаат Орон Сууц ба Барьцааны Хамгаалалт",
     preview_status_1_desc: "Монгол хэл дээрх гэрээний тайлбартай, найдвартай байр",
     preview_status_2_title: "Шууд Ажиллах Үүрэн Холбооны eSIM",
@@ -346,7 +344,9 @@ export const translations = {
     modal_submit: "Илгээх",
     modal_success: "Бидэнтэй холбогдсонд баярлалаа. Бид тун удахгүй эргэн хариу өгөх болно.",
     modal_close: "Хаах",
-    footer_rights: "© 2026 Newtype SARL. Бүх эрх хуулиар хамгаалагдсан.",
+    footer_rights: "© 2026 Newtype. Бүх эрх хуулиар хамгаалагдсан.",
+    footer_address: "БНСУ, Кёнги аймаг, Куанмён хот, Анжэ-ро 1-р дэд гудамж 9",
+    footer_biz_num: "Улсын бүртгэлийн дугаар: 445-22-01640",
     footer_domain: "newtype.sarl • Солонгос дахь Цогц Суурьшлын Төв"
   },
   ne: {
@@ -362,8 +362,6 @@ export const translations = {
     hero_cta_primary: "सेवाहरू हेर्नुहोस्",
     hero_cta_secondary: "सम्पर्क गर्नुहोस्",
     preview_tag: "बसोबास सहयोगी सिमुलेशन",
-    preview_profile_title: "व्यक्तिगत बसोबास यात्रा",
-    preview_profile_user: "विद्यार्थी: सुजन एस. • भिसा: D-2 • गन्तव्य: सियोल",
     preview_status_1_title: "सुरक्षित आवास तथा डिपोजिट सुरक्षा",
     preview_status_1_desc: "नेपालीमा व्याख्या सहित सुरक्षित र पारदर्शी आवास सम्झौता",
     preview_status_2_title: "विमानस्थलमै चल्ने तत्काल eSIM",
@@ -416,7 +414,9 @@ export const translations = {
     modal_submit: "पठाउनुहोस्",
     modal_success: "तपाईंको सन्देश प्राप्त भयो। हामी छिट्टै सम्पर्क गर्नेछौं।",
     modal_close: "बन्द गर्नुहोस्",
-    footer_rights: "© 2026 Newtype SARL. सर्वाधिकार सुरक्षित।",
+    footer_rights: "© 2026 Newtype. सर्वाधिकार सुरक्षित।",
+    footer_address: "९, आन्जे-रो १बन-आन-गिल, ग्वारङम्योङ-सी, ग्योङगी-दो, कोरिया",
+    footer_biz_num: "व्यापार दर्ता नम्बर: 445-22-01640",
     footer_domain: "newtype.sarl • कोरियामा एकीकृत बसोबास प्लेटफर्म"
   }
 };
