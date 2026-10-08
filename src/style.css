@@ -612,46 +612,26 @@ body {
   line-height: 1.6;
 }
 
-/* SARL Corporate Section */
-.sarl-card {
+/* Call to Action Banner */
+.cta-banner {
   background: #ffffff;
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 44px;
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 40px;
-  align-items: center;
+  padding: 56px 36px;
+  text-align: center;
   box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
 }
 
-.sarl-info-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  list-style: none;
-}
-
-.sarl-info-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  border-bottom: 1px solid var(--border-subtle);
-  padding-bottom: 12px;
-}
-
-.sarl-info-label {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-muted);
-}
-
-.sarl-info-value {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--brand-navy);
+.cta-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #132646 0%, #f26522 50%, #10b981 100%);
 }
 
 /* Modal */
@@ -780,9 +760,8 @@ body {
     grid-column: span 12;
   }
 
-  .sarl-card {
-    grid-template-columns: 1fr;
-    gap: 28px;
+  .cta-banner {
+    padding: 36px 20px;
   }
 }
 
