@@ -617,7 +617,7 @@ body {
   background: #ffffff;
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 56px 36px;
+  padding: 56px 36px 36px;
   text-align: center;
   box-shadow: var(--shadow-md);
   position: relative;
@@ -632,6 +632,20 @@ body {
   right: 0;
   height: 4px;
   background: linear-gradient(90deg, #132646 0%, #f26522 50%, #10b981 100%);
+}
+
+.cta-business-meta {
+  margin-top: 40px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px 16px;
+  line-height: 1.6;
 }
 
 /* Modal */
